@@ -1,0 +1,139 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* Scrollable Pane Aside Element Style */
+    
+aside {
+    background: #3d7f98;
+    width: 224px;
+    padding: 20px;
+}
+
+aside.left {
+    float: left;
+    clear: left;
+    margin: 0 20px 0 0;
+}
+
+aside.right {
+    float: right;
+    clear: right;
+    margin: 0 0 0 20px;
+}
+
+aside h4 {
+    text-align: center;
+    color: #50cefe;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    margin: 0;
+}
+
+aside span.title {
+    text-align: left;
+    color: #2f3437;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    display: block;
+}
+
+aside p {
+    font-size: 12px;
+    line-height: 20px;
+    color: #bbeefb;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 500;
+    margin: 10px 0 10px 0;
+    padding: 10px 0 10px 0;
+    border-top: 1px solid #56a0bc;
+}
+
+aside a {
+    text-decoration: none;
+}
+
+aside .arrowWrapper {
+    width: 24px;
+    height: 12px;
+    margin: 6px auto;
+}
+
+aside a.arrow-up {
+    background: url(../images/icon-aside-up-arrow.png);
+    width: 24px;
+    height: 12px;
+    display: block;
+    text-indent: -9999px;
+
+}
+
+aside a.arrow-down {
+    background: url(../images/icon-aside-down-arrow.png);
+    width: 24px;
+    height: 12px;
+    display: block;
+    text-indent: -9999px;
+}
+
+aside .wrapper {
+    height: 480px;
+    overflow: hidden;
+    position: relative;
+}
+
+aside .wrapper .container {
+    position: absolute;
+    top: 0;
+    left: 0;
+}

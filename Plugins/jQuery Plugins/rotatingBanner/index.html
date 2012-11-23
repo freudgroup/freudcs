@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Title</title>
+  <link rel="stylesheet" href="css/style.css?v=1.0">
+</head>
+<body>
+    
+    <a href="#" id="rotating" class="rotating">
+        <img src="images/archi.jpg" alt="img1 title" data-link="http://www.google.com" />
+        <img src="images/chicago.jpg" alt="img2 title" data-link="http://www.bing.com" />
+        <img src="images/city2.jpg" alt="img3 title" data-link="http://www.yahoo.com" />
+        <img src="images/city7.jpg" alt="img4 title" data-link="http://www.msn.com" />
+        <img src="images/renaissance.jpg" alt="img5 title" data-link="http://www.twitter.com" />                                
+    </a>
+    
+    <div>
+    	<a href="https://github.com/jorgeortega/jQueryPlugins/tree/master/rotatingBanner">https://github.com/jorgeortega/jQueryPlugins/tree/master/rotatingBanner</a>
+    </div>
+    
+    <h2>Example markup</h2>
+    <pre>
+    &lt;a href="#" id="rotating" class="rotating"&gt;
+        &lt;img src="images/archi.jpg" alt="img1 title" data-link="http://www.google.com" /&gt;
+        &lt;img src="images/chicago.jpg" alt="img2 title" data-link="http://www.bing.com" /&gt;
+        &lt;img src="images/city2.jpg" alt="img3 title" data-link="http://www.yahoo.com" /&gt;
+        &lt;img src="images/city7.jpg" alt="img4 title" data-link="http://www.msn.com" /&gt;
+        &lt;img src="images/renaissance.jpg" alt="img5 title" data-link="http://www.twitter.com" /&gt;                                
+    &lt;/a>    	
+    </pre>
+    
+    <h2>Initialization</h2>
+    <pre>
+        $("#rotating").rotatingBanner({
+                                  duration: '3000', //duration in milis of the complete banner cycle
+                                  interval: '500' //interval in milis of each animation fade
+                              });
+    </pre>
+
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript">
+        if (typeof jQuery == 'undefined') {
+            document.write(unescape("%3Cscript src='/js/jquery-1.7.1.min.js' type='text/javascript'%3E%3C/script%3E"));
+        }
+    </script> 
+    <script type="text/javascript" src="js/rotating-banner-0.1.js"></script>    
+    <script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>

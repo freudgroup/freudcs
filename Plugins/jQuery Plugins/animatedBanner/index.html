@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Animated Banner</title>
+		<link rel="stylesheet" href="css/style.css" />	
+	</head>
+	<body>
+		
+		<div class="banner test1">
+			<img class="background" src="images/bg.jpg" />
+			<h1 class="title">Live your dreams</h1>
+			<div class="horizontalLine"></div>
+		</div>		
+		
+		<input type="button" value="Run again (reset)" onclick="$('.test1').animatedBanner('reset');" />
+		
+		<div>
+			<a href="https://github.com/jorgeortega/jQueryPlugins/tree/master/animatedBanner">https://github.com/jorgeortega/jQueryPlugins/tree/master/animatedBanner</a>
+		</div>
+		
+		<h2>Example markup</h2>
+		<pre style="color: #444;">
+		&lt;div class="banner test1"&gt;
+			&lt;img class="background" src="images/bg.jpg" /&gt;
+			&lt;h1 class="title">Live your dreams&lt;/h1&gt;
+			&lt;div class="horizontalLine"&gt;&lt;/div&gt;
+		&lt;/div&gt;
+		</pre>		
+		
+		<h2>Initialization</h2>
+		<pre style="color: #444;">
+		$(".test1").animatedBanner({
+       		  elements: [
+           		  {
+           		  	className: "title",
+	           		steps: [  	
+	           			{
+		           			initialCSS: {opacity: "0", top: "20px", left: "-300px"},
+		           		  	finalCSS: {opacity: "1", top: "20px", left: "100px"},
+		           		  	duration: 5000,
+		           		  	easing: "easeInQuad",
+		           		  	delay: 1000,
+		           		  	callback: function(){ }
+	           		    },
+	           			{
+		           			initialCSS: {/*empty*/},
+		           		  	finalCSS: {opacity: "0", top: "20px", left: "-300px"},
+		           		  	duration: 5000,
+		           		  	easing: "easeInQuad",
+		           		  	delay: 5000,
+		           		  	callback: function(){ }
+	           		  	}	           		  	
+           		  	]
+           		  },
+           		  {
+           		  	className: "horizontalLine",
+           		  	steps: [
+	           		  	{
+		           		  	initialCSS: {opacity: "0", top: "70px", right: "-900px"},
+		           		  	finalCSS: {opacity: "1", top: "70px", right: "0"},
+		           		  	duration: 5000,
+		           		  	easing: "easeInSine",
+		           		  	delay: 1000,
+		           		  	callback: function(){ }
+	           		  	},
+	           		  	{
+		           		  	initialCSS: {/*empty*/},
+		           		  	finalCSS: {opacity: "0", top: "70px", right: "-900px"},
+		           		  	duration: 5000,
+		           		  	easing: "easeInSine",
+		           		  	callback: function(){ }
+	           		  	}	           		  	
+           		  	]
+           		  }  
+       		  	]
+		});
+				
+		
+		</pre>
+		
+		<h2>Methods</h2>
+		<table cellpadding="5" cellspacing="5">			
+			<tr>
+				<td>$(".test1").animatedBanner({ jsonObject });</td>
+				<td> --> Initialize banner</td>
+			</tr>
+			<tr>
+				<td>$(".test1").animatedBanner("reset");</td>
+				<td> --> Resets banner, starts animations again</td>
+			</tr>
+			<tr>
+				<td>$(".test1").animatedBanner("stop");</td>
+				<td> --> Stops animation</td>
+			</tr>
+			<tr>
+				<td>$(".test1").animatedBanner("destroy");</td>
+				<td> --> Destroys animations and all data related</td>
+			</tr>
+		</table>
+		
+		<script type="text/javascript" src="js/libs/jquery-1.7.1.min.js"></script>
+		<script type="text/javascript" src="js/libs/jquery.easing.1.3.js"></script>
+		<script type="text/javascript" src="js/libs/animated-banner-0.1.js"></script>		
+		<script type="text/javascript" src="js/script.js"></script>
+</html>

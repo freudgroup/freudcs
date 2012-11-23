@@ -1,0 +1,21 @@
+.banner {
+	margin: 10px auto;
+	width: 900px;
+	height: 300px;
+	position: relative;
+	overflow: hidden;
+}
+
+.title {
+	font-family: Helvetica;
+	color: #ffffff;
+	font-size: 26px;
+	position: absolute;
+}
+
+.horizontalLine {
+	width: 900px;
+	height: 1px;
+	background: #ffffff;
+	position: absolute;
+}
