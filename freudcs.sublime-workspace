@@ -1,0 +1,463 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"on",
+				".on	on"
+			],
+			[
+				"ht",
+				"html5_boilerplate"
+			],
+			[
+				"Class_",
+				"class_implements"
+			],
+			[
+				"sc",
+				"script	Tag"
+			],
+			[
+				"each",
+				"$.each	$.each"
+			],
+			[
+				"jQ",
+				"jQuery	jQuery (Select or Create DOM Element)"
+			],
+			[
+				"j",
+				"jQuery.each	jQuery.each"
+			],
+			[
+				"o",
+				"on"
+			],
+			[
+				"e",
+				"element"
+			],
+			[
+				"we",
+				"weirdSpan"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"f",
+				"fun	Function"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 104.0,
+		"selected_items":
+		[
+			[
+				"project",
+				"Project: Save As"
+			],
+			[
+				"jquery boiler",
+				"Snippet: jQuery Plugin Boilerplate"
+			],
+			[
+				"j",
+				"Snippet: jQuery.when"
+			],
+			[
+				"task",
+				"Tasks: New document"
+			],
+			[
+				"install	",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"lint",
+				"SublimeLinter: Background Linting"
+			],
+			[
+				"enable",
+				"Package Control: Enable Package"
+			],
+			[
+				"disable",
+				"SublimeLinter: Disable Linting"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"pro",
+				"Project: Save As"
+			],
+			[
+				"fetch",
+				"Fetch: File"
+			],
+			[
+				"json",
+				"Set Syntax: JSON"
+			],
+			[
+				"JSON",
+				"Set Syntax: JSON"
+			],
+			[
+				"javas",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"fet",
+				"Fetch: Package"
+			],
+			[
+				"fe",
+				"Fetch: Manage"
+			],
+			[
+				"",
+				"Fetch: Manage"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"set php",
+				"Set Syntax: PHP"
+			],
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
+				"snipp",
+				"Snippet: html"
+			],
+			[
+				"handle",
+				"Set Syntax: Handlebars"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"Cp",
+				"Package Control: Remove Package"
+			],
+			[
+				"pc insta",
+				"Package Control: Install Package"
+			],
+			[
+				"java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"plug",
+				"Snippet: jQuery Plugin Boilerplate Minified"
+			],
+			[
+				"plu",
+				"Snippet: jQuery Plugin Boilerplate"
+			],
+			[
+				"jquery",
+				"Snippet: jQuery Plugin Boilerplate"
+			],
+			[
+				"jq",
+				"Snippet: jQuery Plugin Boilerplate Minified"
+			],
+			[
+				"jque",
+				"Snippet: jQuery click handler"
+			],
+			[
+				"pc ins",
+				"Package Control: Install Package"
+			],
+			[
+				"pac dis	",
+				"Package Control: Disable Package"
+			],
+			[
+				"gru",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"ja",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"ht",
+				"Set Syntax: HTML"
+			],
+			[
+				"obje",
+				"Snippet: Object Method"
+			],
+			[
+				"ob",
+				"Snippet: Object Method"
+			],
+			[
+				"obe",
+				"Snippet: Object Method"
+			],
+			[
+				"funtion",
+				"Snippet: Function"
+			],
+			[
+				"an",
+				"Snippet: Anonymous Function"
+			],
+			[
+				"if else",
+				"Snippet: if … else"
+			],
+			[
+				"sni",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				"INSTALL",
+				"Package Control: Install Package"
+			],
+			[
+				"side",
+				"View: Toggle Side Bar"
+			],
+			[
+				"Sidebar",
+				"View: Toggle Open Files in Side Bar"
+			],
+			[
+				"sideB",
+				"View: Toggle Open Files in Side Bar"
+			],
+			[
+				"sideba",
+				"View: Toggle Open Files in Side Bar"
+			],
+			[
+				"js",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"syn mar",
+				"Set Syntax: Markdown"
+			],
+			[
+				"syntax javaS",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"syntax:java",
+				"Set Syntax: Java"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Jose/Desktop/project/index.html",
+		"/C/Users/Jose/Desktop/project/jqueryWeirdo.js",
+		"/C/Users/Jose/AppData/Roaming/Sublime Text 2/Packages/User/Javascript/hello.sublime-snippet",
+		"/C/Users/Jose/AppData/Roaming/Sublime Text 2/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/Jose/Desktop/project/jquery-fucking.js",
+		"/C/Users/Jose/Desktop/project/project.TODO",
+		"/C/Users/Jose/Desktop/project/sublimeTestProject.sublime-project",
+		"/C/Users/Jose/Desktop/project/sublimeTestProject.sublime-workspace",
+		"/C/Users/Jose/AppData/Roaming/Sublime Text 2/Settings/SideBarEnhancements.json",
+		"/C/Users/Jose/AppData/Roaming/Sublime Text 2/Packages/SideBarEnhancements/Default (Windows).sublime-keymap",
+		"/C/Users/Jose/Desktop/project/css/nromalize.css",
+		"/C/Users/Jose/AppData/Roaming/Sublime Text 2/Packages/User/Fetch.sublime-settings",
+		"/C/Users/Jose/Desktop/project/css/style.css",
+		"/C/Users/Jose/AppData/Roaming/Sublime Text 2/Packages/User/JSON/object-property.sublime-snippet",
+		"/C/Users/Jose/AppData/Roaming/Sublime Text 2/Packages/User/SideBarGit.sublime-settings",
+		"/C/Users/Jose/AppData/Roaming/Sublime Text 2/Packages/SideBarGit/SideBarGit.sublime-settings",
+		"/C/Users/Jose/Desktop/project/hola.js",
+		"/C/Users/Jose/Desktop/project/__init__.py",
+		"/C/Users/Jose/Desktop/project/foldercillo/archivillo.js",
+		"/C/Users/Jose/Desktop/project/jqueryUI/AUTHORS.txt",
+		"/C/Users/Jose/Desktop/project/bace.js",
+		"/C/Users/Jose/Desktop/project/weirdTemplate.js.php",
+		"/C/Users/Jose/AppData/Roaming/Sublime Text 2/Packages/Default/Default (Windows).sublime-keymap",
+		"/C/Users/Jose/AppData/Roaming/Sublime Text 2/Packages/Emmet/Emmet.sublime-settings",
+		"/C/Users/Jose/AppData/Roaming/Sublime Text 2/Packages/User/Emmet.sublime-settings",
+		"/C/Users/Jose/Desktop/project/user.test.php",
+		"/C/Users/Jose/Desktop/response.txt",
+		"/C/Users/Jose/Desktop/jquery.min.js",
+		"/C/Users/Jose/Desktop/project/weirdTemplate",
+		"/C/Users/Jose/Desktop/project/jquery-animate-colors.js",
+		"/C/Users/Jose/Desktop/project/weirdo-plugin.js",
+		"/C/Users/Jose/AppData/Roaming/Sublime Text 2/Packages/User/Javascript/object-method.sublime-snippet"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"\n//",
+			"html5_boilerplate",
+			"  ",
+			"\">",
+			"item",
+			"Item",
+			"item",
+			"Item",
+			"item",
+			"#",
+			"a",
+			"KEY",
+			"=\"#\">",
+			">\n",
+			"menu",
+			"href",
+			"a",
+			"></",
+			"\",\n",
+			"());\n",
+			"div",
+			">\n",
+			"weird",
+			"toWeird",
+			"\n	<script type=\"text/javascript\" src=\"weirdo-plugin\"></script>",
+			"	<"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true
+}
