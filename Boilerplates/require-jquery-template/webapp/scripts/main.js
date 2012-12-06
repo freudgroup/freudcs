@@ -1,6 +1,8 @@
-require(["jquery", "jquery.alpha", "jquery.beta"], function($) {
+/*!
+ * main
+ * runs the main application
+ */
+require(["jquery","jquery.alpha"], function($) {
     //the jquery.alpha.js and jquery.beta.js plugins have been loaded.
-    $(function() {
-        $('body').alpha().beta();
-    });
+    $('div[role=main]').alpha();
 });

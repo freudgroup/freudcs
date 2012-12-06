@@ -33,10 +33,10 @@
     //returns.  (r.js 1.0.8+)
     //- "standard.keepComments.keepLines": keeps the file comments and line
     //returns. (r.js 1.0.8+)
-    optimizeCss: "standard.keepComments",
+    optimizeCss: "standard.keepLines",
 
     paths: {
-        "jquery": "empty:"
+        "jquery": "jquery"
     },
 
     modules: [
