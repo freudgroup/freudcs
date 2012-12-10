@@ -1,3 +1,3 @@
 FreudCS README.md
 
-Pedrois Online
+Pedro is Online
