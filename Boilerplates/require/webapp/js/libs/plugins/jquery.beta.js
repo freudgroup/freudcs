@@ -1,5 +1,6 @@
 /*!
- *  Project: jquery.beta 
+ *  jquery.beta 
+ *  Project: 
  *  Description: 
  *  Author: 
  *  License: 

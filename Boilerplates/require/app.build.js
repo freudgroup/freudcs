@@ -36,7 +36,8 @@
     optimizeCss: "standard",
 
     paths: {
-        "jquery": "libs/jquery"
+        "jquery": "libs/jquery",
+        "plugins": "libs/plugins"
     },
 
     modules: [
