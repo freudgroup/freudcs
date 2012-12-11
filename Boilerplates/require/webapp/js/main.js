@@ -8,11 +8,10 @@ requirejs.config({
         'jquery.beta': ['jquery']
 	},
 	paths : {
-		"jquery": "libs/jquery",
-		"plugins": "libs/plugins"
+		"jquery": "libs/jquery"
 	}
 });
 
-require(["jquery","plugins/jquery.alpha", "plugins/jquery.beta"], function($) {
-	$('div[role=main]').alpha().beta()
+require(["jquery","libs/plugins/jquery.alpha", "libs/plugins/jquery.beta"], function($) {
+	$('div[role=main]').alpha().beta();
 });
