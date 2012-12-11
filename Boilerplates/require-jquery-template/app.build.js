@@ -10,7 +10,7 @@
  */
 ({
     appDir: "webapp",
-    baseUrl: "scripts/",
+    baseUrl: "js/",
     dir: "webapp-build",
     //Comment out the optimize line if you want
     //- "uglify": (default) uses UglifyJS to minify the code.
@@ -33,16 +33,14 @@
     //returns.  (r.js 1.0.8+)
     //- "standard.keepComments.keepLines": keeps the file comments and line
     //returns. (r.js 1.0.8+)
-    optimizeCss: "standard.keepLines",
+    optimizeCss: "standard",
 
     paths: {
-        "jquery": "jquery"
+        "jquery": "libs/jquery"
     },
 
     modules: [
-        //Optimize the application files. jQuery is not 
-        //included since it is already in require-jquery.js
-        //
+        //Optimize the application files. 
         {
             name: "main"
         }
