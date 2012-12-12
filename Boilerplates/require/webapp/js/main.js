@@ -4,8 +4,8 @@
  */
 requirejs.config({
 	shim : {
-		'jquery.alpha': ['jquery'],
-        'jquery.beta': ['jquery']
+		'libs/plugins/jquery.alpha': ['jquery'],
+        'libs/plugins/jquery.beta': ['jquery']
 	},
 	paths : {
 		"jquery": "libs/jquery"
