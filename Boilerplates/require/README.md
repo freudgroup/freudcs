@@ -7,15 +7,17 @@ https://github.com/freudgroup/freudcs/tree/master/Boilerplates/require
 - a require config in main.js, showing shim config and where to place your jquery plugins. (refer this as jquery plugin boilerplates just change the plugin name).
 
 
-Lectura requerida para aprender las ventajas de Asynchromous Module Definition (AMD)
-Requirejs why AMD.
+Required reading to understand the advantages of implementing this or any Asynchromous Module Definition (AMD)
 http://requirejs.org/docs/whyamd.html
 
-Un poco de documentacion sobre como usar el optimizador r.js (instalen node)
-en el boilerplate pueden usar node r.js -o app.build.js
+A bit about how to use the node optimizer r.js (please install node
+In this boilerplate you can execute:
+$ r.js -o app.build.js
+
+Read this throughly if you want to use it for more complex projects.
 http://requirejs.org/docs/optimization.html
 
-If you whant to pursue modular development you should check out thes documentation, show how you can build moudules that return different values and implement several design patterns.
+If you whant to pursue modular development you should check out this documentation, show how you can build moudules that return different values and implement several design patterns.
 http://requirejs.org/docs/api.html#define
 
 Please let me know your thoughts around this. 
