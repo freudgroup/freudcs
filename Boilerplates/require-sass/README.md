@@ -37,8 +37,10 @@ http://requirejs.org/docs/api.html#define
 <h2>Sass:</h2>
 
 <h3>Tutorials:</h3>
-http://sass-lang.com/tutorial.html
-http://www.lynda.com/CSS-tutorials/CSS-LESS-SASS/107921-2.html
+<ul>
+	<li>http://sass-lang.com/tutorial.html</li>
+	<li>http://www.lynda.com/CSS-tutorials/CSS-LESS-SASS/107921-2.html</li>
+</ul>
 
 <h3>Scout:</h3> 
 A Sass compiler,  Scout is a cross-platform app that delivers the power of Sass & Compass into the hands of web designers.
