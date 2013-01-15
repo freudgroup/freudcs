@@ -1,7 +1,7 @@
-Require-Sass Boilerplate
+<h1>Require-Sass Boilerplate</h1>
 https://github.com/freudgroup/freudcs/tree/master/Boilerplates/require-sass
 
-RequireJs:
+<h2>RequireJs:</h2>
 
 Some introduction videos:
 
@@ -36,19 +36,21 @@ http://requirejs.org/docs/api.html#define
 
 <h2>Sass:</h2>
 
-Tutorials:
+<h3>Tutorials:</h3>
 http://sass-lang.com/tutorial.html
 http://www.lynda.com/CSS-tutorials/CSS-LESS-SASS/107921-2.html
 
-Scout: a Sass compiler,  Scout is a cross-platform app that delivers the power of Sass & Compass into the hands of web designers.
+<h3>Scout:</h3> 
+A Sass compiler,  Scout is a cross-platform app that delivers the power of Sass & Compass into the hands of web designers.
 http://mhs.github.com/scout-app/
 
-Sass Structure:
-
-_base: File with the global constants and imported(basic) scss files
-_reset: Css Reset.
-_layout: Css file with the basic layout styles(Structure)
-_content: Css file with content styles.
-style.scss: Principal Css file, imports the stylesheets needed.
+<h3>Sass Structure:</h3>
+<ul>
+	<li>_base: File with the global constants and imported(basic) scss files</li>
+	<li>_reset: Css Reset.</li>
+	<li>_layout: Css file with the basic layout styles(Structure)</li>
+	<li>_content: Css file with content styles.</li>
+	<li>style.scss: Principal Css file, imports the stylesheets needed.</li>
+</ul>
 
 Please let me know your thoughts around this. feel free to question its logic and sher some code, enjoy.
