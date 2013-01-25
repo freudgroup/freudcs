@@ -4,14 +4,24 @@
  */
 requirejs.config({
 	shim : {
-		'libs/plugins/jquery.alpha': ['jquery'],
-        'libs/plugins/jquery.beta': ['jquery']
+		'alpha': ['jquery'],
+        'beta': ['jquery']
 	},
 	paths : {
-		"jquery": "libs/jquery"
+		jquery:	"libs/jquery",
+		alpha :	"libs/plugins/jquery.alpha",
+		beta :	"libs/plugins/jquery.beta"
 	}
 });
 
-require(["jquery","libs/plugins/jquery.alpha", "libs/plugins/jquery.beta"], function($) {
+
+
+
+define(function(require) {
+	var $					= require('jquery'),
+		alpha				= require('alpha'),
+		beta				= require('beta');
+
 	$('div[role=main]').alpha().beta();
+
 });
