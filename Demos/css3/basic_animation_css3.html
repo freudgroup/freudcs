@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>CSS3 Keyframe Animation Demo</title>
+
+<style>
+html,body,div,span,
+applet,object,iframe,
+h1,h2,h3,h4,h5,h6,p,blockquote,pre,
+a,abbr,acronym,address,big,cite,code,
+del,dfn,font,img,ins,kbd,q,s,samp,
+small,strike,sub,sup,tt,var,
+dd,dl,dt,li,ol,ul,
+fieldset,form,label,legend,
+table,caption,tbody,tfoot,thead,tr,th,td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-weight: normal;
+	font-style: normal;
+	font-size: 100%;
+	font-family: inherit;
+	text-align: left;
+}
+
+
+q:before,q:after,
+blockquote:before,blockquote:after {
+	content: "";
+}
+
+
+	
+
+#sun {
+	background: #ffd630;
+	width: 130px;
+	height: 130px;
+	position: absolute;
+	border-radius: 70px;
+	z-index: 2;
+	bottom: 0;
+	left: 340px;
+}
+
+#sun.animate {
+	-webkit-animation-name: sunrise;
+	-webkit-animation-duration: 3s;
+	-webkit-animation-timing-function: ease;
+	-webkit-animation-iteration-count: 1;	
+	-webkit-animation-direction: normal;
+	-webkit-animation-delay: 10;
+	-webkit-animation-play-state: running;
+	-webkit-animation-fill-mode: backwards;
+
+	-moz-animation-name: sunrise;
+	-moz-animation-duration: 10s;
+	-moz-animation-timing-function: ease;
+	-moz-animation-iteration-count: 1;	
+	-moz-animation-direction: normal;
+	-moz-animation-delay: 10;
+	-moz-animation-play-state: running;
+	-moz-animation-fill-mode: backwards;
+	
+	-ms-animation-name: sunrise;
+	-ms-animation-duration: 10s;
+	-ms-animation-timing-function: ease;
+	-ms-animation-iteration-count: 1;	
+	-ms-animation-direction: normal;
+	-ms-animation-delay: 10;
+	-ms-animation-play-state: running;
+	-ms-animation-fill-mode: backwards;
+	
+	animation-name: sunrise;
+	animation-duration: 10s;
+	animation-timing-function: ease;
+	animation-iteration-count: 1;	
+	animation-direction: normal;
+	animation-delay: 10;
+	animation-play-state: running;
+	animation-fill-mode: backwards;
+}
+
+@-webkit-keyframes sunrise {
+
+	0% {
+		bottom: 0;
+		left: 340px;
+		background: #f00;
+	}
+	
+	33% {
+		bottom: 340px;
+		left: 340px;
+		background: #ffd630;
+
+	}
+
+	66% {
+		bottom: 340px;
+		left: 140px;		
+		background: #ffd630;
+	}
+
+	100% {
+		bottom: 0;
+		left: 140px;
+		background: #f00;
+	}
+
+}
+
+@-moz-keyframes sunrise {
+
+	0% {
+		bottom: 0;
+		left: 340px;
+		background: #f00;
+		
+	}
+	
+	33% {
+		bottom: 340px;
+		left: 340px;
+		background: #ffd630;
+	}
+
+	66% {
+		bottom: 340px;
+		left: 40px;
+		background: #ffd630;
+	}
+
+	100% {
+		bottom: 0;
+		left: 40px;
+		background: #f00;
+	}
+
+}
+
+@-ms-keyframes sunrise {
+
+	0% {
+		bottom: 0;
+		left: 340px;
+		background: #f00;
+		
+	}
+	
+	33% {
+		bottom: 340px;
+		left: 340px;
+		background: #ffd630;
+	}
+
+	66% {
+		bottom: 340px;
+		left: 40px;
+		background: #ffd630;
+	}
+
+	100% {
+		bottom: 0;
+		left: 40px;
+		background: #f00;
+	}
+
+}
+
+@keyframes sunrise {
+
+	0% {
+		bottom: 0;
+		left: 340px;
+		background: #f00;
+	}
+	
+	33% {
+		bottom: 340px;
+		left: 340px;
+		background: #ffd630;
+	}
+
+	66% {
+		bottom: 340px;
+		left: 40px;
+		background: #ffd630;
+	}
+
+	100% {
+		bottom: 0;
+		left: 40px;
+		background: #f00;
+	}
+
+}
+
+
+
+
+input[type="button"] {
+	margin: 20px 0 0 165px;
+	padding: 5px;
+}
+</style>
+</head>
+
+<body>
+
+<div id="sun" class="target"></div>
+<input type="button" value="ANIMATE" id="startbutton">
+		
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+
+<script>
+$(function () {
+	var s = null,
+
+	AnimationSpace = {
+		settings: {
+			
+			startButton: $("#startbutton")
+		},
+
+		init: function () {
+			
+			this.startAnimation();
+		},
+	
+		startAnimation: function () {
+			s = this.settings;
+			
+			s.startButton.click(function() {
+				$("div.target").toggleClass("animate");
+				if (s.startButton.attr("value") === "ANIMATE") {
+					s.startButton.attr("value", "RESET");
+				} else {
+					s.startButton.attr("value", "ANIMATE");	
+				}
+			});
+		}
+
+	};
+
+	AnimationSpace.init();
+});
+</script>
+
+
+</body>
+</html>

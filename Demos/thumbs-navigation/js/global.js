@@ -125,7 +125,7 @@ var clientName = window.clientName || {};
 	 */
 	function init() {
 		
-		var object = GalleryNavigation({
+		/*var object = GalleryNavigation({
           //Items Source
           $source : $(".carousel ul li"),
           //Items Source
@@ -137,7 +137,9 @@ var clientName = window.clientName || {};
           //Arrows
           $navNext : $(".next-arrow"),
           $navPrev : $(".prev-arrow")
-        });
+        });*/
+       
+       $(".carousel").freudCarousel();
 		
 	}
 
