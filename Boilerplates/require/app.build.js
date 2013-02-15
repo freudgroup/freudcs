@@ -37,8 +37,10 @@
 
     paths: {
         "jquery":   "libs/jquery",
-        "alpha" :   "libs/plugins/jquery.alpha",
-        "beta" :    "libs/plugins/jquery.beta"
+        // ADD your Paths as declared in main.js
+        // so the optimizer finds each file in it's route.
+        // e.g.
+        // "alpha" :   "libs/plugins/jquery.alpha"
     },
 
     modules: [
