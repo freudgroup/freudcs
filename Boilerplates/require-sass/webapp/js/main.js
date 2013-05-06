@@ -9,7 +9,8 @@ requirejs.config({
 		// "alpha" : ['jquery']
 	},
 	paths : {
-		jquery:	"libs/jquery"
+		jquery:	"libs/jquery",
+		require: "libs/require"
 
 		// ADD Paths for added libraries
 		// e.g.
