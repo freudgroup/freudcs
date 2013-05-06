@@ -4,14 +4,22 @@
  */
 requirejs.config({
 	shim : {
-		'libs/plugins/jquery.alpha': ['jquery'],
-        'libs/plugins/jquery.beta': ['jquery']
+		// ADD ALL non AMD dependencies
+		// e.g.
+		// "alpha" : ['jquery']
 	},
 	paths : {
-		"jquery": "libs/jquery"
+		jquery:	"libs/jquery"
+
+		// ADD Paths for added libraries
+		// e.g.
+		// "alpha" :   "libs/plugins/jquery.alpha"
 	}
 });
 
-require(["jquery","libs/plugins/jquery.alpha", "libs/plugins/jquery.beta"], function($) {
-	$('div[role=main]').alpha().beta();
+define(function(require) {
+	var $			= require('jquery');
+		// DEPENDENCIES FOR MAIN MODULE
+		// e.g.
+		// alpha	= require('alpha');
 });
