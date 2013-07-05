@@ -1,0 +1,40 @@
+/***************************************************/
+/* ---- GLOBAL STYLING --------------------------- */
+/***************************************************/
+
+/* <Client Name> */
+/* <Project Name>*/ 
+
+/* TOC */
+/*  1. Global Constants */
+/*  2. CSS Reset */
+/*  3. Layout */
+/*  4. Content */
+
+
+/***************************************************/
+/* 1. GLOBAL CONSTANTS --------------------------- */
+/***************************************************/
+
+/* Helpers */
+$center: 0 auto;
+$indentPosition: -9999px;
+
+/* Fonts */
+$arialFont: Arial, Helvetica, sans-serif;
+
+/* Colors */
+$fontColor: white;
+$backgroundColor: #000;
+
+/* Sizes */
+$margin: 30px; 
+
+
+/*------------------------------------------------ */
+/* IMPORTS                                         */
+/*------------------------------------------------ */
+@import "reset";
+
+/*Compass Reset*/
+/*@import "compass/reset";*/
