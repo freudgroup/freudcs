@@ -16,11 +16,13 @@ It features:
 
 ## Usage
 #### How run the optimizer?
-* inside the project path 
+* open a terminal in this project path root 
 * execute this command:
-    ```Shell
+
+    ```Shellgi
     $ r.js -o app.build.js
     ```
+
 this will concatenate uglyfy JS and CSS and deploy the optimized app in /webapp-build next to the /webapp folder.
 
 ## Further recomended reading
