@@ -57,5 +57,9 @@ require(['dependencymodule'], function(module){
 
 ```
 
+### WHISLIST
+- port this to a [yeoman generator](http://yeoman.io/generators.html) in it's own repo, so we have a simple clean project to start development.
+
+
 Please let us all know your thoughts around this. 
 feel free to question and edit, enjoy.
