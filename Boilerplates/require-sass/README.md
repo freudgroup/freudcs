@@ -21,9 +21,9 @@ Remember that he have this catchy boilerplate that features
 #### How to compile stylesheets?
 * Go to the project path 
 * execute:
-```Shell
-$ compass watch
-```
+    ```Shell
+    $ compass watch
+    ```
 Note: the config.rb file has the compass compile configuration and the paths to where your SASS is being compiled 
 
 #### How run the optimizer?
