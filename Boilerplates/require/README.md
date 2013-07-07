@@ -1,5 +1,5 @@
 # requirejs + jquery template
-This is a stripped down jquery requirejs sample application to help understand the usage and advantages of 
+This is a stripped down jquery + requirejs sample application to help understand the usage and advantages of 
 1. [requirejs](http://requirejs.org/), as a script loader to simplify separation of concerns in development 
 2. And [r.js](http://requirejs.org/docs/optimization.html#download), the optimization tool to concatenate, minify and deploy your javascript (and even minify your css in case you don;t use any [sass](http://sass-lang.com/) or [less](http://lesscss.org/)). 
 
@@ -15,8 +15,12 @@ It features:
 * [Install Nodejs](http://nodejs.org/)
 
 ### Usage
-to run the optimiser install [node](http://nodejs.org/) and execute this command from the root of this boilerplate:
+#### How run the optimizer?
+* inside the project path 
+* execute this command:
+    ```Shell
     $ r.js -o app.build.js
+    ```
 this will concatenate uglyfy JS and CSS and deploy the optimized app in /webapp-build next to the /webapp folder.
 
 ## Further recomended reading
