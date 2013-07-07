@@ -1,7 +1,7 @@
 # requirejs + jquery
-This is a stripped down jquery + requirejs sample application to help understand the usage and advantages of modular javascript.
+This is a stripped down jquery + requirejs sample application to help understand the usage and advantages of:
 
-1. [requirejs](http://requirejs.org/), as a script loader to simplify separation of concerns in development 
+1. [requirejs](http://requirejs.org/), as a  modular javascript loader and a tool to separate concerns in development. 
 2. And [r.js](http://requirejs.org/docs/optimization.html#download), the optimization tool to concatenate, minify and deploy your javascript (and even minify your css in case you don;t use any [sass](http://sass-lang.com/) or [less](http://lesscss.org/)). 
 
 It features:
