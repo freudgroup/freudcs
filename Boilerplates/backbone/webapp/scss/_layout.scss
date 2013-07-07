@@ -1,0 +1,88 @@
+/***************************************************/
+/* 3. LAYOUT -----------------------------------  */
+/***************************************************/
+
+
+/*------------------------------------------------ */
+/* GENERAL                                         */
+/*------------------------------------------------ */
+
+html,
+body {
+  	color: $fontColor;
+  	background-color: $backgroundColor;
+  	height: 100%;
+    font-family: $arialFont;
+
+    #prevContainer{
+      width: 100%;
+      height: 100%;
+      float: left;
+      margin-top:-100%
+    }
+
+    #nextContainer{
+      width: 100%;
+      height: 100%;
+      float: left;
+    }
+
+    #container{
+      width: 100%;
+      height: 100%;
+      float: left;
+    }
+}
+
+#backbone-wrapper {
+  height: 100%;
+  overflow: hidden;
+}
+
+/*------------------------------------------------ */
+/*  HEADER                                         */
+/*------------------------------------------------ */
+
+/*------------------------------------------------ */
+/*  MENU                                           */
+/*------------------------------------------------ */
+#menu {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+
+}
+
+#arrow-nav {
+  position: absolute;
+  bottom: 20px;
+  left: 45%;
+  text-decoration: underline;
+}
+
+/*------------------------------------------------ */
+/*  CONTENT                                        */
+/*------------------------------------------------ */
+.main {
+  height: 100%; 
+  padding-top: 100px;
+
+  h1 {
+    margin: $margin;
+  }
+}
+
+#template1 {
+  background: red; 
+}
+
+#template2 {
+  background: green; 
+}
+
+#template3 {
+  background: blue; 
+}
+/*------------------------------------------------ */
+/*  FOOTER                                         */
+/*------------------------------------------------ */
