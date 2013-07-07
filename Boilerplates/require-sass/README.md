@@ -1,7 +1,6 @@
-<h1>Require + Sass Boilerplate</h1>
+# Require + Compass 
 
 Remember that he have this catchy boilerplate that features
-https://github.com/freudgroup/freudcs/tree/master/Boilerplates/require-sass
 - Sass
 - Compass
 - Html5 template
@@ -10,37 +9,53 @@ https://github.com/freudgroup/freudcs/tree/master/Boilerplates/require-sass
 - a require config in main.js, showing shim config and where to place your jquery plugins. (refer this as jquery plugin boilerplates just change the plugin name).
 
 
-<h2>Sass</h2>
 
-"Sass is a meta-language on top of CSS that’s used to describe the style of a document cleanly and structurally, with more power than flat CSS allows. Sass both provides a simpler, more elegant syntax for CSS and implements various features that are useful for creating manageable stylesheets."
+### Requirements:
+* [Install Nodejs](http://nodejs.org/)
+* [Install Sass](http://sass-lang.com/tutorial.html "install sass NOW!") 
+* [Install Compass](http://compass-style.org/install/ "Install Compass NOW!") 
 
-<h3>Requirements:</h3>
-<ul>
-	<li><a href="http://sass-lang.com/tutorial.html">Install Sass </a></li> 
-	<li><a href="http://compass-style.org/install/">Install Compass </a></li>
-</ul>
+    
+### Usage
 
-<h3>How to compile stylesheets?</h3>
+#### How to compile stylesheets?
+* Go to the project path 
+* execute "compass watch"
+    Note: the config.rb file has the compass compile configuration and the paths to where your SASS is being compiled 
 
-<ul>
-	<li>Go to the project path</li> 
-	<li>execute "compass watch"</li>
-</ul>
-Note: the config.rb file has the compass compile configuration
+to run the optimiser install [node](http://nodejs.org/) and execute this command from the root of this boilerplate:
+    $ r.js -o app.build.js
+this will concatenate uglyfy JS and CSS and deploy the optimized app in /webapp-build next to the /webapp folder.
 
-<h2> Require </h2>
-Required reading to understand the advantages of implementing this or any Asynchromous Module Definition (AMD)
-http://requirejs.org/docs/whyamd.html
 
-A bit about how to use the node optimizer r.js (please install node
-In this boilerplate you can execute:
-$ r.js -o app.build.js
+# Further recomended reading
 
-Read this throughly if you want to use it for more complex projects.
-http://requirejs.org/docs/optimization.html
+## Sass
+"[Sass](http://sass-lang.com/ "Sass") is a meta-language on top of CSS that’s used to describe the style of a document cleanly and structurally, with more power than flat CSS allows. Sass both provides a simpler, more elegant syntax for CSS and implements various features that are useful for creating manageable stylesheets."
 
-If you whant to pursue modular development you should check out this documentation, show how you can build moudules that return different values and implement several design patterns.
-http://requirejs.org/docs/api.html#define
+## About requirejs
+Required read to understand the advantages of implementing this into your default web projects and code using Asynchronous Module Definition (AMD)
+[AMD, why.](http://requirejs.org/docs/whyamd.html)
 
-Please let me know your thoughts around this. 
-feel free to question its logic and sher some code, enjoy.
+## About the otimizer
+Read this throughly if you want to use it for more complex projects, or compile js for multiple pages, and similar sorceries. 
+[r.js optimization tool](http://requirejs.org/docs/optimization.html)
+
+## Using require modules
+Please refer to require API, in case you need to complicate things and separate concerns into modules.
+[Requirejs API](http://requirejs.org/docs/api.html#define)
+
+As per module declaration with dependencies we would recommend using thi sintax as it is fail proof and always found on top of the module
+
+```javascript
+/**
+ * Module Description
+ */
+require(['dependencymodule'], function(module){
+    // your code here vvvvvv
+});
+
+```
+
+Please let us all know your thoughts around this. 
+feel free to question and edit, enjoy.

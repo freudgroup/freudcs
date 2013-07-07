@@ -35,13 +35,7 @@
     //returns. (r.js 1.0.8+)
     optimizeCss: "standard",
 
-    paths: {
-        "jquery":   "libs/jquery",
-        // ADD your Paths as declared in main.js
-        // so the optimizer finds each file in it's route.
-        // e.g.
-        // "alpha" :   "libs/plugins/jquery.alpha"
-    },
+    mainConfigFile: 'webapp/js/main.js',
 
     modules: [
         //Optimize the application files. 
