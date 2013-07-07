@@ -1,4 +1,4 @@
-# requirejs + jquery template
+# requirejs + jquery
 This is a stripped down jquery + requirejs sample application to help understand the usage and advantages of 
 1. [requirejs](http://requirejs.org/), as a script loader to simplify separation of concerns in development 
 2. And [r.js](http://requirejs.org/docs/optimization.html#download), the optimization tool to concatenate, minify and deploy your javascript (and even minify your css in case you don;t use any [sass](http://sass-lang.com/) or [less](http://lesscss.org/)). 
@@ -11,10 +11,10 @@ It features:
 - a requirejs configuration set in main.js, 
 - Instructions to load non-AMD libraries using shim in main.js (this vital for most jquery plugins).
 
-### Requirements:
+## Requirements:
 * [Install Nodejs](http://nodejs.org/)
 
-### Usage
+## Usage
 #### How run the optimizer?
 * inside the project path 
 * execute this command:

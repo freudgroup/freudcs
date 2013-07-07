@@ -1,4 +1,4 @@
-# Require + Compass 
+# requirejs + compass 
 
 Remember that he have this catchy boilerplate that features
 - Sass
@@ -10,13 +10,13 @@ Remember that he have this catchy boilerplate that features
 
 
 
-### Requirements:
+## Requirements:
 * [Install Nodejs](http://nodejs.org/)
 * [Install Sass](http://sass-lang.com/tutorial.html "install sass NOW!") 
 * [Install Compass](http://compass-style.org/install/ "Install Compass NOW!") 
 
     
-### Usage
+## Usage
 
 #### How to compile stylesheets?
 * Go to the project path 
@@ -36,20 +36,20 @@ this will concatenate uglyfy JS and CSS and deploy the optimized app in /webapp-
 
 
 
-# Further recomended reading
+## Further recomended reading
 
-## Sass
+### Sass
 "[Sass](http://sass-lang.com/ "Sass") is a meta-language on top of CSS that’s used to describe the style of a document cleanly and structurally, with more power than flat CSS allows. Sass both provides a simpler, more elegant syntax for CSS and implements various features that are useful for creating manageable stylesheets."
 
-## About requirejs
+### About requirejs
 Required read to understand the advantages of implementing this into your default web projects and code using Asynchronous Module Definition (AMD)
 [AMD, why.](http://requirejs.org/docs/whyamd.html)
 
-## About the otimizer
+### About the otimizer
 Read this throughly if you want to use it for more complex projects, or compile js for multiple pages, and similar sorceries. 
 [r.js optimization tool](http://requirejs.org/docs/optimization.html)
 
-## Using require modules
+### Using require modules
 Please refer to require API, in case you need to complicate things and separate concerns into modules.
 [Requirejs API](http://requirejs.org/docs/api.html#define)
 
