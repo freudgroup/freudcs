@@ -1,6 +1,6 @@
 # requirejs + compass 
 
-Remember that he have this catchy boilerplate that features
+Remember that we have this catchy boilerplate that features
 - Sass
 - Compass
 - Html5 template
@@ -50,7 +50,7 @@ this will concatenate uglyfy JS and CSS and deploy the optimized app in /webapp-
 Required read to understand the advantages of implementing this into your default web projects and code using Asynchronous Module Definition (AMD)
 [AMD, why.](http://requirejs.org/docs/whyamd.html)
 
-### About the otimizer
+### About the optimizer
 Read this throughly if you want to use it for more complex projects, or compile js for multiple pages, and similar sorceries. 
 [r.js optimization tool](http://requirejs.org/docs/optimization.html)
 
