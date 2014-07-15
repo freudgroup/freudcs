@@ -19,7 +19,7 @@ module.exports = function (grunt) {
       // SCSS files
       sass: {
         files: ['<%= config.app %>/scss/**/*.scss'],
-        tasks: ['compass'],
+        tasks: ['compass:main'],
         options: {
           spawn: false
         }
@@ -37,6 +37,11 @@ module.exports = function (grunt) {
 
     // Runs compass on SCSS files
     compass : {
+      main: {
+        options: {
+          config: 'config.rb'
+        }
+      },
       dist: {
         options: {
           config: 'config.rb'
