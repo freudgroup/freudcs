@@ -30,7 +30,7 @@ $ grunt build
 You can find the associated files on the root folder" Gruntfile.js and package.json, config.rb is used
 for compass configuration.
 
-<h2>SASS</2>
+<h2>SASS</h2>
 
 <h3>Files folder structure: </h3>
 
@@ -44,6 +44,9 @@ for compass configuration.
 
 <h4>partials/base.scss</h4>
 The base stylesheet sets a couple of global variables and loads up all of my Sass modules. You can put there global variables for font styles, sizes, etc.
+
+<h4>modules/utility.scss</h4>
+This file is for declaring utility mixins that we generally used for centering content, adding borders, animations, etc.
 
 <h3>CSS properties order: </h3>
 
@@ -153,3 +156,61 @@ The base stylesheet sets a couple of global variables and loads up all of my Sas
 ```
 
 * Taken from: http://css-tricks.com/snippets/css/media-queries-for-standard-devices/
+
+
+<h3>Sprites usage: </h3>
+
+<h4>For Retina Sprites</h4>
+
+1. Import the scss file:
+
+```
+@import "retina-sprites";
+
+```
+
+1. You need to create 2 folders, one for retina and one for non-retina. And then map them to a variable, like:
+
+```
+$sprites: sprite-map("sprites/buttons/*.png");            // import 1x sprites
+$sprites2x: sprite-map("sprites-retina/buttons/*.png");   // import 2x sprites
+
+```
+2. Then you can import them on the <b>partials/icons.scss</b> file, like:
+
+```
+.myBoringButton {
+    @include retina-sprite(signIn);                                  // imports signIn.png
+}
+
+```
+This import uses the <b>modules/retina-sprites.scss</b> file, to create the sprite using compass. For more information and options: https://github.com/AdamBrodzinski/Retina-Sprites-for-Compass
+
+
+<h4>For Non-Retina Sprites</h4>
+
+If you don't need retina sprites, you may only use the compass library for sprites:
+
+1. Import compass lib:
+
+```
+@import "compass/utilities/sprites";
+
+```
+
+2. Import and include all the sprites on the specified folder:
+
+```
+@import "../img/player-icons/*.png";
+@include all-player-icons-sprites;
+
+```
+
+3. Usage:
+
+```
+.circleIcon {
+  @include player-icons-sprite(circle);
+}
+
+```

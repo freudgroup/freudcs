@@ -108,24 +108,6 @@ TOC
   }
 }
 
-// If Retina sprites
-@import "retina-sprites";
-// Usage:
-// $sprites: sprite-map("sprites/buttons/*.png");            // import 1x sprites
-// $sprites2x: sprite-map("sprites-retina/buttons/*.png");   // import 2x sprites
-// .myBoringButton {
-//   @include retina-sprite(signIn);                                  // imports signIn.png
-//}
-// For more information and options: https://github.com/AdamBrodzinski/Retina-Sprites-for-Compass
-
-// *******************
-
-// If non-retina sprites, example:
-// @import "compass/utilities/sprites"; *** needs this compass lib
-// @import "../img/player-icons/*.png"; *** imports pngs from folder
-// @include all-player-icons-sprites; *** creates the sprite image from folder
-// usage: @include player-icons-sprite(circle);
-
 
 /* 4. RESPONSIVE
 ---------------------------------------------- */
