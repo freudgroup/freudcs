@@ -34,11 +34,11 @@ for compass configuration.
 
 <h3>Files folder structure: </h3>
 
--The <b>modules</b> directory is reserved for Sass code that doesn't cause Sass to actually output CSS. Things like mixin declarations, functions, and variables. 
+- The <b>modules</b> directory is reserved for Sass code that doesn't cause Sass to actually output CSS. Things like mixin declarations, functions, and variables. 
 
--The <b>partials</b> directory is where the meat of my CSS is constructed. It can be broken into: header, content, sidebar, and footer components (and a few others). Or even much finer categories (typography, buttons, textboxes, selectboxes, etc…).
+- The <b>partials</b> directory is where the meat of my CSS is constructed. It can be broken into: header, content, sidebar, and footer components (and a few others). Or even much finer categories (typography, buttons, textboxes, selectboxes, etc…).
 
--The <b>vendor</b> directory is for third-party CSS. This is handy when using prepackaged components developed by other people (or for your own components that are maintained in another project). jQuery UI and a color picker are examples.
+- The <b>vendor</b> directory is for third-party CSS. This is handy when using prepackaged components developed by other people (or for your own components that are maintained in another project). jQuery UI and a color picker are examples.
 
 * Taken from: http://thesassway.com/beginner/how-to-structure-a-sass-project
 
