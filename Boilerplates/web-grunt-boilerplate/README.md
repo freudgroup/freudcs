@@ -13,9 +13,9 @@ Features:
 - Imagemin
 - Uglify
 
-<h2>How to run grunt?</2>
+<h2>How to run grunt?</h2>
 
-1. If you wish to run the default, watch task simply execute the following command:
+1. If you wish to run the default, watch task, simply execute the following command:
 ```
 $ grunt
 
