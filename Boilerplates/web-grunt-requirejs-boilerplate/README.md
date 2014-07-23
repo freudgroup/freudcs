@@ -12,6 +12,9 @@ Features:
 - good olde jquery
 - Imagemin
 - Uglify
+TODO:
+- requirejs
+- bower
 
 <h2>How to run grunt?</h2>
 

@@ -59,6 +59,18 @@ module.exports = function (grunt) {
       all: ['<%= config.app %>/js/main/*.js']
     },
 
+    //Compiles AMD modules
+    // requirejs: {
+    //   compile: {
+    //     options: {
+    //       baseUrl: "path/to/base",
+    //       mainConfigFile: "path/to/config.js",
+    //       name: "path/to/almond", // assumes a production build using almond
+    //       out: "path/to/optimized.js"
+    //     }
+    //   }
+    // }
+
     // Concats and minify files
     uglify: {
       main: {
@@ -135,7 +147,7 @@ module.exports = function (grunt) {
   grunt.loadNpmTasks('grunt-contrib-clean');
   grunt.loadNpmTasks('grunt-contrib-copy');
   grunt.loadNpmTasks('grunt-contrib-imagemin');
-  //grunt.loadNpmTasks('grunt-contrib-requirejs');
+  grunt.loadNpmTasks('grunt-contrib-requirejs');
 
   grunt.registerTask('build', ['clean:dist', 'uglify:dist', 'copy:dist', 'imagemin:dist']);
 
