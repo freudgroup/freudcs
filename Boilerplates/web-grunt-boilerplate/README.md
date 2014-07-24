@@ -8,10 +8,20 @@ Features:
 - JSlint
 - CSSlint
 - Html5 template
-- requirejs (missing implementation)
 - good olde jquery
 - Imagemin
 - Uglify
+
+<h2>What to install?</h2>
+
+These are the project dependencies
+
+*[nodejs|http://nodejs.org/download/]
+*[grunt|http://gruntjs.com/getting-started]
+*[compass|http://compass-style.org/install/]
+
+After installation run ```$ npm install``` from the base directory. 
+Then you can run grunt.  
 
 <h2>How to run grunt?</h2>
 
