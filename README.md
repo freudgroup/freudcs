@@ -1,6 +1,6 @@
 # FreudCS
 
-Hi, Freud Client-Side ( [FreudCS|https://github.com/freudgroup/freudcs] ), covers a series of experiments in scaffolding for client side projects.
+Hi, Freud Client-Side ([FreudCS](https://github.com/freudgroup/freudcs)), covers a series of experiments in scaffolding for client side projects.
 The idea is to re-create wheels as wheels are made in other client side communities.
 Covering from minimal project setup to more flambuoyant head start examples in client side development.
 
