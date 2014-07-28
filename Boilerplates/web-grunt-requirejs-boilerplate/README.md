@@ -8,11 +8,10 @@ Features:
 - JSlint
 - CSSlint
 - Html5 template
-- requirejs (missing implementation)
+- requirejs
 - good olde jquery
 - Imagemin
 - Uglify
-TODO:
 - requirejs
 - bower
 
@@ -21,10 +20,10 @@ TODO:
 
 These are the project dependencies
 
-*[nodejs|http://nodejs.org/download/]
-*[grunt|http://gruntjs.com/getting-started]
-*[compass|http://compass-style.org/install/]
-*[bower|http://bower.io/]
+- [nodejs|http://nodejs.org/download/]
+- [grunt|http://gruntjs.com/getting-started]
+- [compass|http://compass-style.org/install/]
+- [bower|http://bower.io/]
 
 
 After installation run 
