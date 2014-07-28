@@ -28,7 +28,7 @@ module.exports = function (grunt) {
       // Main JS files
       js: {
         files: ['<%= config.app %>/js/main/*.js'],
-        tasks: ['jshint', 'uglify:main'],
+        tasks: ['jshint'],
         options: {
           spawn: false
         }
@@ -39,7 +39,8 @@ module.exports = function (grunt) {
     compass : {
       main: {
         options: {
-          config: 'config.rb'
+          config: 'config.rb',
+          watch: true
         }
       },
       dist: {
@@ -60,36 +61,25 @@ module.exports = function (grunt) {
     },
 
     //Compiles AMD modules
-    // requirejs: {
-    //   compile: {
-    //     options: {
-    //       baseUrl: "path/to/base",
-    //       mainConfigFile: "path/to/config.js",
-    //       name: "path/to/almond", // assumes a production build using almond
-    //       out: "path/to/optimized.js"
-    //     }
-    //   }
-    // }
-
-    // Concats and minify files
-    uglify: {
-      main: {
+    requirejs: {
+      dist: {
         options: {
-          beautify: true,
-          banner: '/* Title Here <%= grunt.template.today("yyyy-mm-dd") %> */ \n'
-        },
-        files: {
-          '<%= config.app %>/js/main.min.js': '<%= config.app %>/js/main/*.js',
-        }
-      },
-
-      dist : {
-        options: {
-          beautify: false,
-          banner: '/* Title Here <%= grunt.template.today("yyyy-mm-dd") %> */ \n'
-        },
-        files: {
-          '<%= config.dist %>/js/main.min.js': '<%= config.app %>/js/main/*.js',
+            appDir: 'src',
+            baseUrl: 'js/',
+            dir: 'build',
+            optimize: 'uglify',
+            // uglify: {
+            //   verbose: true
+            // },
+            mainConfigFile: 'src/js/config.js',
+            optimizeCss: 'none',
+            modules:[{
+                name: 'main',
+                include: [
+                    'application',
+                    'jquery'
+                ]
+            }]
         }
       }
     },
@@ -149,7 +139,7 @@ module.exports = function (grunt) {
   grunt.loadNpmTasks('grunt-contrib-imagemin');
   grunt.loadNpmTasks('grunt-contrib-requirejs');
 
-  grunt.registerTask('build', ['clean:dist', 'uglify:dist', 'copy:dist', 'imagemin:dist']);
+  grunt.registerTask('build', ['compass:dist', 'clean:dist', 'copy:dist', 'requirejs:dist', 'imagemin:dist']);
 
   // Default task(s).
   grunt.registerTask('default', ['watch']);

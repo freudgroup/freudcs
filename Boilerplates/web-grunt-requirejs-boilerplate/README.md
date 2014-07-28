@@ -16,6 +16,24 @@ TODO:
 - requirejs
 - bower
 
+
+<h2>What to install?</h2>
+
+These are the project dependencies
+
+*[nodejs|http://nodejs.org/download/]
+*[grunt|http://gruntjs.com/getting-started]
+*[compass|http://compass-style.org/install/]
+*[bower|http://bower.io/]
+
+
+After installation run 
+```
+$ npm install
+``` 
+from the base directory, after this, you can start using grunt tasks.
+
+
 <h2>How to run grunt?</h2>
 
 1. If you wish to run the default, watch task, simply execute the following command:

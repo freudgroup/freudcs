@@ -1,0 +1,29 @@
+{
+  "name": "web-grunt-requirejs-boilerplate",
+  "version": "0.0.0",
+  "homepage": "https://github.com/freudgroup/freudcs",
+  "authors": [
+    "josemadriz"
+  ],
+  "description": "A boilerplate to start using bower and require along grunt and compass.",
+  "main": "src/css/style.css",
+  "keywords": [
+    "compass",
+    "nodejs",
+    "grunt",
+    "bower",
+    "requirejs"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "1.11.1"
+  }
+}
