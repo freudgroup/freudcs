@@ -75,10 +75,7 @@ module.exports = function (grunt) {
             optimizeCss: 'none',
             modules:[{
                 name: 'main',
-                include: [
-                    'application',
-                    'jquery'
-                ]
+                include: ['application']
             }]
         }
       }
@@ -103,6 +100,19 @@ module.exports = function (grunt) {
             '.tmp',
             '<%= config.dist %>/*',
             '!<%= config.dist %>/.git*'
+          ]
+        }]
+      },
+      //cleanning after grunt-contrib-requirejs
+      after: {
+        files: [{
+          src: [
+            //cleanning left behind scss
+            '<%= config.dist %>/scss/',
+            //cleanning left behind js
+            '<%= config.dist %>/js/*',
+            //Skips compiled js
+            '!<%= config.dist %>/js/main.js'
           ]
         }]
       }
@@ -139,8 +149,10 @@ module.exports = function (grunt) {
   grunt.loadNpmTasks('grunt-contrib-imagemin');
   grunt.loadNpmTasks('grunt-contrib-requirejs');
 
-  grunt.registerTask('build', ['compass:dist', 'clean:dist', 'copy:dist', 'requirejs:dist', 'imagemin:dist']);
+  // Impecable optimized build for deployment. 
+  grunt.registerTask('build', ['compass:dist', 'clean:dist', 'copy:dist', 'requirejs:dist', 'imagemin:dist', 'clean:after']);
 
-  // Default task(s).
-  grunt.registerTask('default', ['watch']);
+  // Default task(s). 
+  // Creates CSS then watches intently.
+  grunt.registerTask('default', ['compass:dist', 'watch']);
 };
